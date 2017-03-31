@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Comment faire du café</title>
+		<meta name="description" content="Blueprint: Fixed Background Scrolling Layout" />
+		<meta name="keywords" content="background scrolling, fixed background, background-attachment, jquery" />
+		<meta name="author" content="Codrops" />
+		<link href="https://fonts.googleapis.com/css?family=Adamina|Palanquin+Dark" rel="stylesheet">
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<span>Comment faire du café?</span>
+				<h1>Il faut qu'on change ca que ca n'apparaisse pas partout</h1>  <!-- trouver un moyen pour que ca ne saffiche que sur le premier -->
+				<nav>
+
+				</nav>
+			</header>
+			<div id="cbp-fbscroller" class="cbp-fbscroller">
+				<nav>
+					<a href="#fbsection1" class="cbp-fbcurrent">Section 1</a>
+					<a href="#fbsection2">Section 2</a>
+					<a href="#fbsection3">Section 3</a>
+					<a href="#fbsection4">Section 4</a>
+					<a href="#fbsection5">Section 5</a>
+					<a href="#fbsection5">Section 6</a>
+					<a href="#fbsection5">Section 7</a>
+					<a href="#fbsection5">Section 8</a>
+
+				</nav>
+				<section id="fbsection1">
+				<h4> COMMENT FAIRE
+				 DU CAFE ?  </h4>
+			</section>
+
+				<section id="fbsection2">
+				<li id="etapes">
+				<h2>E T A P E S</h2>
+				<ul>
+<li>Pré-requis</li>
+<li>Que faire si on a pas ...</li>
+<li>Préparation du café</li>
+<li>Personnaliser</li>
+<li>Tadaaa</li>
+<li>Les coffes shops pour les flemmards</li>
+</ul>
+
+</section>
+
+				<section id="fbsection3">
+					<li id="prerequis">
+					<h2>P R E - R E Q U I S</h2>
+					<ul>
+	<li>Café</li>
+	<li>Electricité</li>
+	<li>Eau</li>
+	</ul>
+
+</section>
+				<section id="fbsection4">
+					<li id="quefaire">
+					<h2>QUE FAIRE SI ON A PAS LES PREREQUIS ?</h2>
+					<ul>
+	<li>Vérifier le compteur électrique</li>
+	<li>Vérifier le robinet eau</li>
+	<li>Acheter du café</li>
+	</ul>
+
+</section>
+
+				<section id="fbsection5"></section>
+				<section id="fbsection6"></section>
+				<section id="fbsection7"></section>
+				<section id="fbsection8">
+				<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:900px;'><div id='gmap_canvas' style='height:440px;width:900px;'></div><div><small><a href="http://embedgooglemaps.com">google maps carte</a></small></div><div><small><a href="http://youtubeembedcode.com">youtube generator</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(44.837789,-0.5791799999999512),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.837789,-0.5791799999999512)});infowindow = new google.maps.InfoWindow({content:'<strong>Bordeaux</strong><br>Bordeaux<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+			</section>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ -->
+		<script src="js/jquery.easing.min.js"></script>
+		<!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
+		<script src="js/waypoints.min.js"></script>
+		<!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
+		<script src="js/jquery.debouncedresize.js"></script>
+		<script src="js/cbpFixedScrollLayout.min.js"></script>
+		<script>
+			$(function() {
+				cbpFixedScrollLayout.init();
+			});
+		</script>
+	</body>
+</html>
