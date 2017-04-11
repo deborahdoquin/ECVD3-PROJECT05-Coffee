@@ -3,14 +3,11 @@
 font-family: 'Adamina', serif;
 font-family: 'Palanquin Dark', sans-serif;
 
+
+
+
 h3 {
   font-size: 80px;
-  font-family: 'Palanquin Dark', sans-serif;
-}
-
-
-h2 {
-  font-size: 40px;
   font-family: 'Palanquin Dark', sans-serif;
 }
 
@@ -20,6 +17,36 @@ h4 {
   line-height: 110pt;
 }
 
+h5 {
+  font-size: 20px;
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+h6 {
+  font-size: 12px;
+  font-family: 'Adamina', serif;
+}
+
+h8 {
+font-size: 40px;
+font-family: 'Palanquin Dark', sans-serif;
+letter-spacing: 2px;
+color: #7e7e7f;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Palanquin Dark', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 12px;
+  font-family: 'Adamina', serif;
+}
+
+
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html { font-size: 100%; padding: 0; margin: 0;}
 
@@ -28,8 +55,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:after { clear: both; }
 
 body {
-font-family: 'Adamina', serif;
-    color: #fff;
+color: #fff;
 }
 
 a {
