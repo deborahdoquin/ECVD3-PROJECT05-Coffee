@@ -108,6 +108,11 @@ list-style: none;
 
 	#fbsection5 {
 		background-image: url(../images/5.jpg);
+		background-attachment: scroll;
+background-size: cover;
+background-position: center;
+
+
 	}
 
 	#preparation li {
@@ -118,8 +123,9 @@ list-style: none;
 	    display: flex;
 	    align-items: center;
 	    justify-content: center;
-	    margin: 30px;
+	    margin: 70px;
 			text-align: left;
+
 	}
 
 	#preparation {
@@ -130,6 +136,7 @@ list-style: none;
 	 font-size: 30px;
 	 background: rgba(0,0,0,0.2);
 	 text-align: left;
+	 padding-bottom: 30px;
 	}
 
 
@@ -178,6 +185,7 @@ list-style: none;
 #fbsection7 {
 	background-image: url(../images/6.jpg);
 list-style-type: none;
+
 }
 
 .icon {
@@ -187,10 +195,15 @@ list-style-type: none;
 padding-top: 20px;
 }
 
+li img {
+  width : 60%;
+}
+
  nav li {
      display: inline-block;
      text-align: center;
 		 list-style-type: none;
+
  }
 
 
@@ -207,6 +220,7 @@ padding-top: 20px;
  	-webkit-font-smoothing: antialiased;
  	text-indent: 8000px;
  	padding-left: 8px;
+
  }
 
 
