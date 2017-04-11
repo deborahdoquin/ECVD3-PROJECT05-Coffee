@@ -1,2 +1,3 @@
-# ECVD3-PROJECT05-Coffee
-31/03/2017 Comment faire du café
+Created by Codrops
+
+Please read more about our license here: http://tympanus.net/codrops/licensing/ 
